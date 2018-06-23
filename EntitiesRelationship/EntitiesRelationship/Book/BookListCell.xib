@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BookListCell" rowHeight="284" id="KGk-i7-Jjw" customClass="BookListCell" customModule="EntitiesRelationship" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="473" height="284"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="473" height="283.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="7.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8il-1z-tyd">
+                        <rect key="frame" x="7" y="11" width="150" height="150"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="150" id="0Sr-KM-s9U"/>
+                            <constraint firstAttribute="height" constant="150" id="NqY-fL-NaW"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="书名" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2KD-Yc-p5u">
+                        <rect key="frame" x="165" y="11" width="278" height="44.5"/>
+                        <color key="backgroundColor" red="0.90188163519999998" green="0.90201145410000005" blue="0.9018532038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="价格" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Umw-Rb-T8L">
+                        <rect key="frame" x="165" y="63.5" width="278" height="44.5"/>
+                        <color key="backgroundColor" red="0.90188163519999998" green="0.90201145410000005" blue="0.9018532038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="借阅日期" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U7i-qg-YTn">
+                        <rect key="frame" x="165" y="116" width="278" height="44"/>
+                        <color key="backgroundColor" red="0.90188163519999998" green="0.90201145410000005" blue="0.9018532038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="借阅天数" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FX2-QD-eAn">
+                        <rect key="frame" x="165" y="168" width="278" height="44.5"/>
+                        <color key="backgroundColor" red="0.90188163519999998" green="0.90201145410000005" blue="0.9018532038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="应付金额" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIY-Be-Pfc">
+                        <rect key="frame" x="165" y="220.5" width="278" height="44.5"/>
+                        <color key="backgroundColor" red="0.90188163519999998" green="0.90201145410000005" blue="0.9018532038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="2KD-Yc-p5u" firstAttribute="leading" secondItem="8il-1z-tyd" secondAttribute="trailing" constant="8" id="0np-wk-TWO"/>
+                    <constraint firstItem="U7i-qg-YTn" firstAttribute="leading" secondItem="2KD-Yc-p5u" secondAttribute="leading" id="1ah-Tl-0KH"/>
+                    <constraint firstItem="8il-1z-tyd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="2hm-cL-ZQa"/>
+                    <constraint firstItem="8il-1z-tyd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="7" id="7gg-fI-XLh"/>
+                    <constraint firstItem="FX2-QD-eAn" firstAttribute="leading" secondItem="2KD-Yc-p5u" secondAttribute="leading" id="9gT-lY-g3K"/>
+                    <constraint firstItem="hIY-Be-Pfc" firstAttribute="height" secondItem="2KD-Yc-p5u" secondAttribute="height" id="BrE-3D-6ZF"/>
+                    <constraint firstItem="hIY-Be-Pfc" firstAttribute="leading" secondItem="2KD-Yc-p5u" secondAttribute="leading" id="GpQ-Zg-UHw"/>
+                    <constraint firstItem="FX2-QD-eAn" firstAttribute="height" secondItem="2KD-Yc-p5u" secondAttribute="height" id="Lne-tn-95F"/>
+                    <constraint firstItem="hIY-Be-Pfc" firstAttribute="top" secondItem="FX2-QD-eAn" secondAttribute="bottom" constant="8" id="NwI-ih-dIP"/>
+                    <constraint firstItem="Umw-Rb-T8L" firstAttribute="height" secondItem="2KD-Yc-p5u" secondAttribute="height" id="RYV-Mc-GlH"/>
+                    <constraint firstItem="Umw-Rb-T8L" firstAttribute="top" secondItem="2KD-Yc-p5u" secondAttribute="bottom" constant="8" id="Sf8-ro-YX5"/>
+                    <constraint firstItem="Umw-Rb-T8L" firstAttribute="trailing" secondItem="2KD-Yc-p5u" secondAttribute="trailing" id="XHM-sF-PvX"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="hIY-Be-Pfc" secondAttribute="bottom" constant="8" id="c7G-qD-ghJ"/>
+                    <constraint firstItem="U7i-qg-YTn" firstAttribute="top" secondItem="Umw-Rb-T8L" secondAttribute="bottom" constant="8" id="evr-SA-Zz4"/>
+                    <constraint firstItem="2KD-Yc-p5u" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="gZu-1c-W3p"/>
+                    <constraint firstItem="U7i-qg-YTn" firstAttribute="height" secondItem="2KD-Yc-p5u" secondAttribute="height" id="ht4-lH-JEu"/>
+                    <constraint firstItem="FX2-QD-eAn" firstAttribute="top" secondItem="U7i-qg-YTn" secondAttribute="bottom" constant="8" id="mrN-lS-Wbv"/>
+                    <constraint firstItem="U7i-qg-YTn" firstAttribute="trailing" secondItem="2KD-Yc-p5u" secondAttribute="trailing" id="p8b-ZZ-d1B"/>
+                    <constraint firstItem="Umw-Rb-T8L" firstAttribute="leading" secondItem="2KD-Yc-p5u" secondAttribute="leading" id="rXA-Lg-XRP"/>
+                    <constraint firstItem="hIY-Be-Pfc" firstAttribute="trailing" secondItem="2KD-Yc-p5u" secondAttribute="trailing" id="ttD-oh-hB4"/>
+                    <constraint firstItem="FX2-QD-eAn" firstAttribute="trailing" secondItem="2KD-Yc-p5u" secondAttribute="trailing" id="v4k-15-vxe"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="2KD-Yc-p5u" secondAttribute="trailing" constant="10" id="wI8-vv-0ht"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="amountPayableLabel" destination="hIY-Be-Pfc" id="qqH-XU-gSo"/>
+                <outlet property="borrowDateLabel" destination="U7i-qg-YTn" id="D9k-i1-Oc2"/>
+                <outlet property="lendingDaysLabel" destination="FX2-QD-eAn" id="xzm-rc-xLE"/>
+                <outlet property="nameLabel" destination="2KD-Yc-p5u" id="f9S-h8-Ogk"/>
+                <outlet property="priceLabel" destination="Umw-Rb-T8L" id="gPv-Nv-u3C"/>
+            </connections>
+            <point key="canvasLocation" x="110.5" y="174"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="7.jpg" width="6720" height="4480"/>
+    </resources>
+</document>
